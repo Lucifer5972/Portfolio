@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <head>
+        <title>ASK | Portfolio </title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme|Courgette&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+          <a href="#about">Home</a>
+          <a href="#courses">Courses</a>
+          <a href="#experiences">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#Contact">Contact</a>
+          <div class="icon">
+            <div><a href = "#experiences"><i class="fas fa-cog"></i></a></div>
+            <div><a href = "#projects"><i class="fas fa-project-diagram"></i></a></div>
+            <div><a href = "#education"><i class="fas fa-university"></i></a></div>
+            <div><a href = "#skills"><i class="fas fa-brain"></i></a></div>
+            <div><a href = "#Contact"><i class="fas fa-address-book"></i></a></div>
+          </div>
+        </div>
+        <div style = "background-image: url('assets/about.png'); background-size: cover; background-attachment : fixed;" id = "about">
+            <div id = "image"></div>
+            <div id = "name"></div>
+            <div id = "field"></div>
+            <div id = "desc"> </div>
+        </div>
+        
+        <div id = "title-1" >MY COURSES</div>
+        <div id = "courses"></div>
+        
+        <div id = "title-2"  >MY EXPERIENCE</div>
+        <div id = "experiences" style = "background-image: url('assets/experience.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment : fixed;"></div>
+        
+        <div id = "title-3">MY PROJECTS</div>
+        <div id = "projects" ></div>
+        
+        <div id = "title-4">MY EDUCATION</div>
+        <div id = "education" style = "background-image: url('assets/education.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment : fixed;"></div>
+        
+        <div id = "title-5">MY SKILLS</div>
+        <div id = "skills"></div>
+        
+        <div id = "footer">
+            <div id = "navlinks">
+                <h6 id = "foottitle-1">Navigate</h6>
+                <ul>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#experiences">Experience </a></li>
+                    <li><a href = "#courses">Courses</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                    <li><a href = "#">Resume</a></li>
+                </ul>
+            </div>
+            <div id = "social"></div>
+            <div id = "Contact">
+                    <h4 style="font-weight: normal">Contact Me</h4>
+                    <form id = "form" name = "myform">
+                        <input type = "text" name = "name" placeholder= "Name">
+                        <input type="email" name="email" placeholder="Email"><br>
+                        <input type= "submit" name = "submit" value="Contact">
+                    </form>
+            </div>
+        </div>
+        <script src="javascript/main.js"></script>
+        <script src="javascript/file-handler.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+    </body>
+    
+</html>
+    

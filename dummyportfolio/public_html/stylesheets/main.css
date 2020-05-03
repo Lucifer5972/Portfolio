@@ -1,0 +1,552 @@
+.topnav {
+  overflow: hidden;
+  position : relative;
+  float : right; 
+}
+#myTopnav .icon{
+    display : none;
+}
+.topnav a {
+  font-family: 'Acme', sans-serif;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color : black;
+  transition :0.5s ease;
+  
+}
+
+.topnav a:hover {
+  transform : scaleX(1.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  background-image: linear-gradient( to bottom right,#69FF97,#00E4FF);
+  
+}
+
+
+/* ABOUT  */
+
+#about{
+    font-family: 'Acme', sans-serif;
+    text-align :center;
+    position : absolute;
+    top : 140px;
+    padding : 100px 300px 100px 300px;
+    color : black;
+    margin-top : -80px;
+    
+}
+#about #name,#about #field{
+    margin-top : 15px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+#about #image #student{
+    width : 250px;
+    height : 250px;
+    border-radius : 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+/* COURSES */
+
+#courses{
+    display : flex;
+    flex-direction : row;
+    position : relative;
+    top : 750px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+    font-weight : bolder;
+    width : 100%;
+    flex-wrap: wrap;
+    z-index : 10;
+}
+
+#courses > div{
+    text-align : center;
+    width : 150px;
+    height : 200px; 
+    transition :0.5s ease;
+    
+}
+#courses > div > div{
+    margin-top : 10px;
+}
+
+#courses > div:hover{
+
+    color : white;
+    background-image: linear-gradient(#a9f99e,#46add5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform : scale(1.1);
+    
+}
+#title-1{
+    font-family: 'Acme', sans-serif;
+    font-weight : bolder;
+    position : absolute;
+    top : 700px;
+    text-align : center;
+    font-size: 40px;
+    width : 100%;
+}    
+#cert a{
+    text-decoration : none;
+    padding-top : 0px;
+    padding-left : 5px;
+    padding-right : 5px;
+    background-color : white;
+    color : black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+#cert a : hover {
+     background: -webkit-linear-gradient( to bottom right,#a9f99e,#46add5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/* EXPERIENCE */
+
+#experiences{
+    position : relative;
+    top : 900px;
+    display : flex;
+    flex-direction : column;
+    justify-content : space-around;
+    flex-wrap: wrap;
+    padding-left : 100px;
+    padding-right : 100px;
+    padding-bottom : 50px;
+    margin-top : 50px;
+    
+}
+
+#experiences > div{
+    font-family: 'Acme', sans-serif;
+    width : 500px;
+    margin-top : 40px;
+    padding : 30px;
+    padding-top : 50px;
+    transition: transform 1s;
+    color : white;
+}
+#experiences > div:hover{
+    transform : scale(1.1);
+    background-image: linear-gradient( to bottom right,#69FF97,#00E4FF);
+    color : white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#experiences > div :last-child {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:10px;
+    background-color : white;
+    color : black;
+}
+
+#experiences > div #date{
+    font-weight : bolder;
+}
+#experiences > div #jobdesc{
+    margin-top : 20px;
+}
+
+#title-2{
+    font-family: 'Acme', sans-serif;
+    font-weight : bolder;
+    position : absolute;
+    top : 1100px;
+    text-align : center;
+    font-size: 40px;
+    width : 100%;
+}    
+
+#experiences  :nth-child(even){
+    align-self : flex-end;
+}
+
+/* PROJECTS */
+
+#projects{
+    font-family: 'Acme', sans-serif;
+    position : relative;
+    top : 900px;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    width : 100%;
+    flex-wrap: wrap;
+    text-align : center;
+    margin-top : 200px;
+    
+}
+
+#projects > div{
+    width : 200px;
+    height : 380px;
+    padding :20px;
+   
+    transition: transform 2s;
+}
+
+#projects > div:hover{
+    transform : rotatey(360deg);
+    background-image: linear-gradient( to bottom right,#69FF97,#00E4FF);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color : white;
+}
+
+#projects > div #projimg img{
+    width:200px;
+    height : 150px;
+    margin-bottom : 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+#projects > div #projtitle{
+    font-weight : bolder;
+    margin-bottom : 10px;
+}
+#projects > div #projdesc{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color : white;
+    color : black;
+}
+#title-3{
+    font-family: 'Acme', sans-serif;
+    font-weight : bolder;
+    position : absolute;
+    top : 2250px;
+    text-align : center;
+    font-size: 40px;
+    width : 100%;
+}
+/* EDUCATION */
+#education{
+    display : flex;
+    flex-direction : column;
+    flex-wrap : wrap;
+    font-family: 'Acme', sans-serif;
+    position : absolute;
+    top : 2750px;
+    margin-top : 200px;
+    padding-left : 100px;
+    padding-right : 100px;
+    padding-top : 50px;
+    padding-bottom : 50px;
+    
+    
+}
+#education > div { 
+    padding : 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align : center;
+    margin-top : 20px;
+    background-color : white;
+}
+
+#education > div #info-0 {
+    font-weight : bolder;
+    font-size : 25px;
+    margin-bottom : 20px;
+}
+
+#title-4{
+    font-family: 'Acme', sans-serif;
+    font-weight : bolder;
+    position : absolute;
+    top : 2820px;
+    text-align : center;
+    font-size: 40px;
+    width : 100%;
+}
+
+/* SKILLS */
+#skills{
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    font-family: 'Acme', sans-serif;
+    position : absolute;
+    top : 3450px;
+    justify-content: space-around;
+    align-items: center;
+    width : 100%;
+    margin-top : 170px;
+}
+
+#skills > div {
+    text-align : center;
+    margin : 15px;
+    width : 130px;
+    height : 130px;
+    border-radius: 50%;
+    border : 10px solid #00ffff;
+    font-weight : bolder;
+    font-size : 18px;
+}
+
+
+#skills > div > div{
+    margin-top : 47px;
+}
+#title-5{
+    font-family: 'Acme', sans-serif;
+    font-weight : bolder;
+    position : absolute;
+    top : 3500px;
+    text-align : center;
+    font-size: 40px;
+    width : 100%;
+}
+/* FOOTER */
+
+#footer{
+    position : relative;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    top : 2000px;
+    flex-wrap: wrap;
+}
+#footer #navlinks ul{
+    list-style-type: none;
+}
+#footer #navlinks ul > li{
+    margin-top : 20px;
+    
+}
+#footer #navlinks ul > li a {
+    text-decoration : none;
+    color : white;
+    font-family: 'Acme', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:6px;
+    padding-left : 6px;
+    padding-right : 6px;
+    background-image: linear-gradient( 109.6deg,  rgba(31,179,237,1) 11.2%, rgba(17,106,197,1) 91.1% );
+    transition: transform .2s;
+}
+#footer #navlinks ul > li a : hover{
+    transform : scale(1.1);
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    background-position: right center; 
+}
+#footer #social > div{
+    margin: 20px;
+}
+#footer #social{
+    margin-top : -25px;
+    
+}
+#footer #social a{
+    color : white;
+    font-family: 'Acme', sans-serif;
+    text-decoration : none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:5px;
+    background-image: linear-gradient( 109.6deg,  rgba(31,179,237,1) 11.2%, rgba(17,106,197,1) 91.1% );
+    padding-left : 6px;
+    padding-right : 6px;
+    transition: transform .2s;
+
+}
+#footer #social a:hover{
+    transform : scale(1.1);
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    background-position: right center; 
+}
+
+#footer #social a i{
+    margin-right:10px;
+}
+
+#footer #Contact{
+    margin-bottom : 40px;
+    padding-left : 40px;
+    padding-right : 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#foottitle-1{
+    font-family: 'Courgette', cursive;
+    font-size:20px;
+    margin-bottom : -5px;
+    margin-left : 35px;
+    margin-top : -2px;
+}
+#foottitle-2{
+    font-family: 'Courgette', cursive;
+    font-size:20px;
+    margin-bottom : 10px;
+    margin-top : 25px;
+    margin-left : 5px;
+}
+#footer h4{
+    font-family: 'Courgette', cursive;
+    font-size:30px;
+    margin-bottom : -3px;
+}
+input[type = text],input[type = email]{
+    font-family: 'Courgette', cursive;
+    width : 100%;
+    margin : 5px;
+    padding : 5px;
+}
+
+input[type = submit]{
+    font-family: 'Courgette', cursive;
+    margin-top : 10px;
+    width : 100%;
+    margin-left : 10px;
+    margin-bottom : 10px;
+    background-image: linear-gradient( 109.6deg,  rgba(31,179,237,1) 11.2%, rgba(17,106,197,1) 91.1% );
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+
+}
+input[type = submit]:hover{
+    transform : scale(1.1);
+    background-position: right center; 
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        overflow-x:hidden;
+    }
+    #about{
+        top : 500px;
+        left : 50%;
+        transform : translate(-50%,-50%);
+    }
+    #title-1{
+        position : absolute ;
+        top : 780px;
+        left : 50%;
+        transform : translate(-50%,-50%);
+    }
+    #title-2{
+        position : absolute ;
+        top : 2100px;
+        left : 50%;
+        transform : translate(-50%,-50%);
+    }
+    #title-3{
+        position : absolute ;
+        top : 3800px;
+        left : 50%;
+        transform : translate(-50%,-50%);
+    }
+    
+    #experiences > div{
+        width : 200px;
+        align-self : center;
+        margin-left : -60px;
+        
+        
+    }
+    #experiences  :nth-child(even){
+        align-self : center;
+    }
+    
+    #projects > div{
+        margin: 20px;
+    }
+   #footer #navlinks ul{
+        margin-left : -40px;
+    }
+    #footer #Contact{
+        padding-left :18px;
+    }
+    #footer #Contact h4{
+        text-align : center;
+        padding-left : 15px;
+    }
+    #courses > div{
+        margin:20px;
+       
+    }
+    #courses {
+      z-index : 1;   
+    }
+    #footer #navlinks #foottitle-1{
+       margin-left : -5px;
+       font-size :15px;
+       
+    }
+    #footer #social #foottitle-2{
+        margin-left : 20px;
+        font-size :15px;
+    }
+    #footer #social{
+        margin-right : -70px;
+        font-size :15px;
+    }
+    #footer #navlinks ul > li{
+        font-size :15px;
+    }
+     #footer #navlinks{
+        margin-left :-50px;
+    }
+    #education{
+        top : 5650px;
+        
+        left : 50%;
+        transform : translate(-50%,-50%);
+        
+    }    
+    #education > div{
+        aline-self : center;
+        width : 250px;
+    
+        
+    }
+    #title-4{
+        top :5300px;
+        left : 50%;
+        transform : translate(-50%,-50%);
+    }
+    #footer{
+        margin-top:900px;
+    }
+    #skills{
+        top : 6700px;
+        width : 100%;  
+        left : 50%;
+        transform : translate(-50%,-50%);
+    }
+     #title-5{
+        top :6400px;
+        left : 50%;
+        transform : translate(-50%,-50%);
+    }
+    #myTopnav > a{
+        display :none;
+    }
+    #myTopnav .icon{
+        display:flex;
+        flex-direction : row;
+    }
+    #myTopnav .icon > div{
+        margin : 10px;
+    }
+}

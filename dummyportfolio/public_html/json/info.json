@@ -1,0 +1,127 @@
+{
+    "img"  : "assets/student.jpg",
+    "name" : "Raju",
+    "dept" : "ITUS",
+    "field" : "Data Scientist",
+    "desc" : "A few interesting things about me. I love to read science fiction (my favorite is Frank Herbert's Dune). I am also an avid gamer. I love to play competitive strategy games and first-person shooters. Lastly, I love learning. Every day I push myself to learn something new, whether that be about machine learning, software engineering, or miscellaneous facts about the universe. ",
+    "experience" : [
+        {
+            "date" : "Jan 2018 - Mar 2018",
+            "job" : "Data Science",
+            "company" : "Capegemini",
+            "job desc" : "I was in the Team Responsible for creating an internal dashboard tool.It is now used to measure user engagement metrics such as the number of active users and the summary of their activities on the website we worked on.My responsiblities included planning,initial research and project management."
+        },
+        {
+            "date" : "Sept 2018 - Nov 2018",
+            "job" : "Machine Learning",
+            "company" : "Infosys",
+            "job desc" : "Worked with Data Scientists and Product Manager to frame a problem,both mathematically  and within the business context.Also worked on deploying validated algorithms in our RTB system, and develop techniques for monitoring and visualising performance of all deployed algorithms."
+        },
+        {
+            "date" : "July 2019 - June 2019",
+            "job" : "Web Scraping, Data Visualisation and Regression Modelling",
+            "company" : "TCS",
+            "job desc" : "Compiled pricing data for competitive analysis by performing webscraping in python. Supervised model development,testing and validation of 100+ financial products and services.Created Charts in jupyter notebook to perform preliminary analysis and visualize data using Matplotlib."
+        }
+        
+    ],
+    "courses":[
+        {
+            "img" : "database",
+            "course" : "MySQL",
+            "platform" : "Coursera"
+    },
+    {
+            "img" : "code",
+            "course" : "Python",
+            "platform" : "Udemy"
+    },
+     {
+            "img" : "chart-area",
+            "course" : "Data Science",
+            "platform" : "Udemy"
+    },
+     {
+            "img" : "dice-d6",
+            "course" : "Blockchain",
+            "platform" : "edX"
+    },
+    {
+            "img" : "laptop-code",
+            "course" : "Machine Learning",
+            "platform" : "Coursera"
+    }
+    ],
+    "projects" :[
+        {
+            "img src":"assets/quiz.png" ,
+            "project title" : "Quiz Application in JAVA",
+            "project desc" : "This Quiz application was a mini-project created using JAVA which had questions related to semester subjects.It had both student and teachers login so that student can learn and teachers can view their performance. "
+        },
+        {
+            "img src":"assets/webscrape.jpg" ,
+            "project title" : "Web Scraping Using Python",
+            "project desc" : "This was also an mini-project created using python libraries like beautifulsoup,requests,etc. The task was to scrape all the data realted to previuos prime minister of india and display the data in a GUI."
+        },
+        {
+            "img src":"assets/blockchain.PNG" ,
+            "project title" : "Build a dummy Blockchain in Python",
+            "project desc" : "This was a project created by me at the end of the Blockchain course by using Python.It was a blockchain with dummy cryptocurrency called 'hadcoins. I learned the basics and requirements of a blockchain through the project"
+        }
+        
+    ] ,
+    "social" : [
+      {    "name" : "linkedin",
+           "link" : "https://www.linkedin.com/",
+           "icon" : "linkedin"
+      },
+      {
+            "name" : "twitter",
+            "link" : "https://twitter.com/",
+            "icon" : "twitter"
+      },
+      {
+            "name" : "github",
+            "link" : "https://github.com/",
+            "icon" : "github"
+       },
+       {
+            "name" : "instagram",
+            "link" : "https://www.instagram.com/",
+            "icon" : "instagram"
+       },
+       {
+            "name" : "facebook",
+            "link" : "https://www.facebook.com/",
+            "icon" : "facebook"
+       }
+    ],
+    "skills" :
+        {
+            "skill-0" : "Python Programming",
+            "skill-1" : "JAVA",
+            "skill-2" : "Bloockchain",
+            "skill-3" : "MongoDB",
+            "skill-4" : "Machine Learning",
+            "skill-5" : "MATLAB",
+            "skill-6" : "MySQL"
+        
+        },
+    "education" : [
+        {
+            "info-0" : "Bachelor of Engineering",
+            "info-1" : "My IT Engineering started from year 2017 by cracking CET and got accepted in Pillai's College         of Engineering. I have experienced lots of things in this college, from great learning to             particapting in sports festival and college committees. I have participated in events like            Treasure Hunt, Job Fair,etc. My Academic Progress throughout this years is as follow:",
+            "info-2" : "Average CGPI: 8.93 / 10",
+            "info-3" : "Semester I : 7.67 | Semester II : 8.52",
+            "info-4" : "Semester III : 9.54 | Semester IV : 9.54",
+            "info-5" : "Semester III : 9.38"
+        },
+        {
+            "info-0" : "Higher Secondary Certificate",
+            "info-1" : "I have completed my Junior College from Birla Junior College, Kalyan with Bifocal                     subject as Informatics Practices.I started my programming journey through this subject,JAVA           was the first language I came across Cleared my HSC and it helped me in choosing my career in         prgramming",
+            "info-2" : "I cleared my HSC by scoring 83.14 % and appeared from CET and JEE Mains."
+        }
+        ]
+        
+    
+}
